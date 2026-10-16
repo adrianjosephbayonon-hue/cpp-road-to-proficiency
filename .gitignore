@@ -1,0 +1,12 @@
+# Compiled programs
+*.exe
+*.out
+*.o
+*.obj
+
+# Debugging files
+*.pdb
+*.ilk
+
+# VS Code workspace settings (optional)
+.vscode/

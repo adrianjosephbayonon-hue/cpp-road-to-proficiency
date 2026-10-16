@@ -1,12 +1,13 @@
-# Compiled programs
+# VS Code settings: ignore everything by default
+.vscode/*
+
+# Allow the C++ basics learning folder
+!.vscode/01-Basics/
+
+# Allow C++ source files and lesson notes
+.vscode/01-Basics/*
+!.vscode/01-Basics/*.cpp
+!.vscode/01-Basics/*.txt
+
+# Ignore compiled executables
 *.exe
-*.out
-*.o
-*.obj
-
-# Debugging files
-*.pdb
-*.ilk
-
-# VS Code workspace settings (optional)
-.vscode/

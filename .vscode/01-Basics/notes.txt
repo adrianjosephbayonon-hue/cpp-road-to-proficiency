@@ -1,0 +1,70 @@
+//                //
+//    LESSON 1    //
+//                //
+
+
+# Lesson 1: Hello World
+
+## What I Learned
+
+- `#include <iostream>` allows basic input and output.
+- `main()` is where program execution begins.
+- `cout` displays output in the terminal.
+- `endl` moves the output to a new line.
+- `return 0` indicates successful program completion.
+- A semicolon (`;`) marks the end of a C++ statement.
+
+## My First C++ Program
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello, World!" << endl;
+    cout << "I am learning C++." << endl;
+
+    return 0;
+}
+```
+
+## Expected Output
+
+```text
+Hello, World!
+I am learning C++.
+```
+
+## Practice
+
+I compiled and ran my first C++ program using GCC (`g++`) in VS Code.
+
+## What I Need to Review
+
+- Understand the purpose of each line in the program.
+- Practice displaying different messages using `cout`.
+- Learn more about variables and data types.
+
+## Progress
+
+**Status:** Completed — First program successfully compiled and executed.
+
+
+
+
+//                //
+//    LESSON 2    //
+//                //
+
+
+
+Lesson 2 — Variables and Data Types
+1. What is a variable?
+A variable is a named storage location for a value. Think of it like a labeled box that holds information.
+
+2. Four basic data types
+Data type	    What it stores	        Example
+int	            Whole numbers	        int age = 20;
+double	        Decimal numbers	        double price = 99.50;
+char	        A single character	    char grade = 'A';
+bool	        True or false	        bool isStudent = true;

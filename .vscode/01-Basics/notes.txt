@@ -10,7 +10,7 @@
 - `#include <iostream>` allows basic input and output.
 - `main()` is where program execution begins.
 - `cout` displays output in the terminal.
-- `endl` moves the output to a new line.
+- `endl` moves the output to a new line. 
 - `return 0` indicates successful program completion.
 - A semicolon (`;`) marks the end of a C++ statement.
 
